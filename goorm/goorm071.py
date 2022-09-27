@@ -47,7 +47,7 @@ data = { '서울':[81,0.052,0.4],
 
 starlist={}
 
-for k,v in data.items():s
+for k,v in data.items():
    it=[]
    it.append(star(PM10(v[0])))
    it.append(star(O3(v[1])))
