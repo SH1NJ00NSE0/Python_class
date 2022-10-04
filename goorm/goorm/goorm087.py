@@ -45,6 +45,12 @@ class FlyableAttackUnit(AttackUnit,Flyable):
       AttackUnit.__init__(self,name,hp,damage)
       Flyable.__init__(self,flying_speed)
 
+class BuildingUnit(Unit):
+   def __init__(self,name,hp,location):
+      pass
+
+suply_depot=BuildingUnit("서플라이 디폿",500,"7시")
+
 marine1=AttackUnit("마린",40,5,25)
 marine1.move("5시")
 
