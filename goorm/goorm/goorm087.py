@@ -47,7 +47,8 @@ class FlyableAttackUnit(AttackUnit,Flyable):
 
 class BuildingUnit(Unit):
    def __init__(self,name,hp,location):
-      pass
+      super().__init__(name,hp,0)
+      self.location=location
 
 suply_depot=BuildingUnit("서플라이 디폿",500,"7시")
 
