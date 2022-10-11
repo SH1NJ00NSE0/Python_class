@@ -1,8 +1,8 @@
 def removeOdd(numbers):
-   for i in numbers[:]:
-      if(i%2!=0):
-         numbers.remove(i)
-   return numbers
+	for i in numbers[:]:
+		if(i%2!=0):
+			numbers.remove(i)
+	return numbers
 
 numbers=[]
 print(numbers)
