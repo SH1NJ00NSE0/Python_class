@@ -9,6 +9,7 @@ report = {'위험': '설사, 구토 등 식중독 의심 증상이 있으면 의
           '관심': '화장실 사용 후, 귀가 후, 조리 전에 손 씻기를 생활화'}
 
 area = input()
+
 if (areadata.get(area) >= 86):
    print(report.get('위험'))
 elif (areadata.get(area) >= 71):
